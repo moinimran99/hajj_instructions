@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hajj Guide - Instructions Image</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #0b3d2e, #1a6d4e);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+            padding: 20px;
+        }
+        .instruction-card {
+            max-width: 550px;
+            width: 100%;
+            background: #fef9e6;
+            border-radius: 40px;
+            padding: 30px 25px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        .icon {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            color: #1e3a2f;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        .urdu-title {
+            font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', serif;
+            font-size: 24px;
+            direction: rtl;
+            color: #8a6e2c;
+            margin-bottom: 25px;
+        }
+        .step {
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-align: left;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .step-number {
+            background: #c9a03d;
+            color: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        .step-text .english {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2c3e2f;
+        }
+        .step-text .urdu {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 18px;
+            direction: rtl;
+            color: #7a5a2a;
+            margin-top: 5px;
+        }
+        .arrow {
+            font-size: 30px;
+            color: #c9a03d;
+            margin: 5px 0;
+        }
+        .final-link {
+            background: #e8f5e9;
+            border-radius: 20px;
+            padding: 15px;
+            margin-top: 15px;
+            border: 2px dashed #2e7d32;
+        }
+        .final-link .english {
+            font-size: 14px;
+            color: #2e7d32;
+            font-weight: bold;
+        }
+        .final-link .urdu {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 16px;
+            direction: rtl;
+            color: #2e7d32;
+            margin-top: 5px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #6c757d;
+        }
+        @media (max-width: 500px) {
+            .instruction-card { padding: 20px; }
+            .step { padding: 15px; }
+            .step-text .english { font-size: 14px; }
+            .step-text .urdu { font-size: 15px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="instruction-card">
+        <div class="icon">🕋📱</div>
+        <h1>HOW TO USE THIS GUIDE</h1>
+        <div class="urdu-title">اس گائیڈ کو استعمال کرنے کا طریقہ</div>
+        
+        <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-text">
+                <div class="english">📖 Read the Introduction</div>
+                <div class="urdu">تعارف پڑھیں (اردو / انگریزی)</div>
+            </div>
+        </div>
+        
+        <div class="arrow">👇</div>
+        
+        <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-text">
+                <div class="english">🖱️ Click on any Colored Card</div>
+                <div class="urdu">کسی بھی رنگین کارڈ پر کلک کریں</div>
+            </div>
+        </div>
+        
+        <div class="arrow">👇</div>
+        
+        <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-text">
+                <div class="english">📋 Read That Day's Rituals</div>
+                <div class="urdu">اُس دن کے مکمل اعمال پڑھیں</div>
+            </div>
+        </div>
+        
+        <div class="arrow">👇</div>
+        
+        <div class="step">
+            <div class="step-number">4</div>
+            <div class="step-text">
+                <div class="english">⬅️➡️ Navigate Between Days</div>
+                <div class="urdu">دنوں کے درمیان جائیں (بٹن استعمال کریں)</div>
+            </div>
+        </div>
+        
+        <div class="final-link">
+            <div class="english">✅ Complete all 5 Days + Farewell Tawaf</div>
+            <div class="urdu">✅ ۵ دن + طواف وداع مکمل کریں</div>
+        </div>
+        
+        <div class="footer">
+            🕋 May Allah accept your Hajj | 🤲 اللہ آپ کا حج قبول فرمائے
+        </div>
+    </div>
+</body>
+</html>
